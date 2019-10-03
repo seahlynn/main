@@ -100,7 +100,7 @@ public class ParserUtil {
         requireNonNull(remark);
         return new Remark(remark);
     }
-    
+
     /**
      * Parses a {@code String tag} into a {@code Tag}.
      * Leading and trailing whitespaces will be trimmed.
