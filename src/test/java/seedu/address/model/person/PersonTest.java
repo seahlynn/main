@@ -54,7 +54,7 @@ public class PersonTest {
         assertTrue(ALICE.isSamePerson(editedAlice));
     }
 
-    /*@Test
+    @Test
     public void equals() {
         // same values -> returns true
         Person aliceCopy = new PersonBuilder(ALICE).build();
@@ -91,5 +91,5 @@ public class PersonTest {
         // different tags -> returns false
         editedAlice = new PersonBuilder(ALICE).withTags(VALID_TAG_HUSBAND).build();
         assertFalse(ALICE.equals(editedAlice));
-    }*/
+    }
 }
