@@ -19,8 +19,8 @@ public class Remark {
 
     @Override
     public String toString() {
-            return value;
-        }
+        return value;
+    }
 
     @Override
     public boolean equals(Object other) {
@@ -31,6 +31,6 @@ public class Remark {
 
     @Override
     public int hashCode() {
-            return value.hashCode();
-        }
+        return value.hashCode();
+    }
 }
